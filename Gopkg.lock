@@ -8,10 +8,10 @@
   version = "v1.1.1"
 
 [[projects]]
+  branch = "master"
   name = "github.com/pkg/errors"
   packages = ["."]
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
+  revision = "c059e472caf75dbe73903f6521a20abac245b17f"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
@@ -29,11 +29,11 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["pbkdf2"]
-  revision = "5295e8364332db77d75fce11f1d19c053919a9c9"
+  revision = "e3636079e1a4c1f337f212cc5cd2aca108f6c900"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b598251936ff5ac08e23eb423b91237b92e0efb63c951bbde27d50a1b9f52606"
+  inputs-digest = "1a59977e9eb8358a1d38129eb67e9e35a0191b6b3cba0f7236e42ea6f311a205"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -24,14 +24,19 @@
 #   go-tests = true
 #   unused-packages = true
 
+
+required = [
+	# provider dependencies
+	"github.com/pkg/errors",
+]
+
 [[constraint]]
   branch = "master"
   name = "golang.org/x/crypto"
 
 [[constraint]]
+  branch = "master"
   name = "github.com/pkg/errors"
-  version = "0.8.0"
-
 
 [prune]
   go-tests = true
